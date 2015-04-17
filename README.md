@@ -11,3 +11,5 @@ This extension automatically opens all links on a the active page which match a 
 The default value for this regex is .*linkdin.com/profile.* to get you started
 
 But it can be set to any value by accessing the extension's settings
+
+![All credit to connor!](icon.png)
