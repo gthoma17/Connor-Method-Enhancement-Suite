@@ -8,8 +8,13 @@ This prompts some of the viewed people to view his profile thus increasing his r
 
 This extension automatically opens all links on a the active page which match a regex
 
-The default value for this regex is .*linkdin.com/profile.* to get you started
+There is a configuarable delay between each tab opening to prevent LinkedIn from locking you out
+
+The default value for this regex is .\*linkdin.com/profile.\* to get you started
 
 But it can be set to any value by accessing the extension's settings
 
+
+
+All thanks to Connor!
 ![All credit to connor!](icon.png)
