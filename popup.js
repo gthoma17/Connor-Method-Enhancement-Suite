@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var url = tab.url;
 
     chrome.tabs.executeScript(tab.id, {file: "content.js"});
-
     callback(url);
   });
 });
