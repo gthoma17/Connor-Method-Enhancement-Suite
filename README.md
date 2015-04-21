@@ -10,11 +10,24 @@ This extension automatically opens all links on a the active page which match a 
 
 There is a configuarable delay between each tab opening to prevent LinkedIn from locking you out
 
-The default value for this regex is .\*linkdin.com/profile.\* to get you started
+The default value for this regex is https://www.linkedin.com/profile/view?id=.* to get you started
 
 But it can be set to any value by accessing the extension's settings
 
+To load the extension into Chrome:
+* Download and unzip CMES
+* Click on the hamburger menu in the top right corner
+* Go to More Tools > Extensions
+* Click "Load Unpacked Extension"
+* Select the folder containing CMES
+* (Optional) Right click on Connor's face in the top right Corner, click on options
+* (Optional) Set the 'url pattern to ignore' to a regex that matches your profile link
 
+To use the extension:
+* Navigate to a page with a lot of links to linkedin profiles
+* Click on Connor's face
+* Go get a coffee
 
 All thanks to Connor!
+
 ![All credit to connor!](icon.png)
