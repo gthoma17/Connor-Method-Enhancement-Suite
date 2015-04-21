@@ -22,7 +22,7 @@ function save_options() {
 function restore_options() {
   // Use default value url_pattern = 'https://www\.linkedin\.com/profile/view\?id=.*.
   chrome.storage.sync.get({
-    urlPattern: '.*linkedin.com/profile/.*',
+    urlPattern: 'https://www.linkedin.com/profile/view?id=.*',
     ignorePattern: '',
     delay: '10000'
   }, function(items) {
