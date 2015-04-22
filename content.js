@@ -1,6 +1,6 @@
 chrome.storage.sync.get({
-    urlPattern: 'https://www.linkedin.com/profile',
-    ignorePattern: '',
+    urlPattern: '.*linkedin.com/profile/view.*',
+    ignorePattern: '(?=a)b',
     delay: '10000',
 	  classPattern: '.*',
   }, function(items) {
