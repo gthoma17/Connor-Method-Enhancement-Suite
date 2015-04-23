@@ -24,13 +24,14 @@ chrome.storage.sync.get({
     matchingURLs = pruneURLs(possibleURLs,badPattern); //this is where site specific url pruning should occur
     console.log("#of Matching links: " + matchingURLs.length);
     console.log("Interval between openings (ms): " + parseInt(delay));
-    setInterval(function(){openURLs();}, parseInt(delay)); //Commented out
+    setInterval(function(){openURLs();}, parseInt(delay)); 
   });
 function openURLs(){
   if (matchingURLs.length>0) {
     var thisUrl = matchingURLs.pop();
-    console.log("Opening: " + thisUrl + " " + matchingURLs.length + " links remaining");
-    window.open(thisUrl,'_blank');
+    console.log("Opening: " + thisUrl + " " + matchingURLs.length + " links remaining... ");
+    request = "openURL-" + thisUrl;
+    chrome.runtime.sendMessage({action: request});
   };
 }
 function pruneURLs(array){
