@@ -1,5 +1,7 @@
-Connor Method Enhancement Suite
+C-O-N-N-E-R
 ===============================
+**C**lever **O**mnicompetent **N**on-manual **N**etwork **E**xploitation **R**ig
+
 This extension simplifies Connor's method of gaming the Linkdin ranking system.
 
 Connor likes to go to popular articles and open the profile of everyone who has commented
