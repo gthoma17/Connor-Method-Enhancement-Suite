@@ -16,6 +16,8 @@ The default value for this regex is https://www.linkedin.com/profile/view?id=.* 
 
 But it can be set to any value by accessing the extension's settings
 
+####**Note:** You will need ~500 profile views withen 90 days to be better than Connor.
+
 To load the extension into Chrome:
 * Download and unzip CMES
 * Click on the hamburger menu in the top right corner
